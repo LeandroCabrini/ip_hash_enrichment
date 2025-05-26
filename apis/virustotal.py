@@ -11,7 +11,6 @@ def enrich_ip(ip):
     url = f"{BASE_URL}ip_addresses/{ip}"
     try:
         response = requests.get(url, headers=HEADERS, timeout=10)
-        response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Erro na requisição para o IP: {e}")

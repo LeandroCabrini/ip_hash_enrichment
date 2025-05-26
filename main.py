@@ -16,7 +16,7 @@ def mostrar_resultado(dados):
         print("Erro ao interpretar resultado:", e)
 
 def main():
-    entrada = input("Digite um IP, domínio ou hash: ").strip()
+    entrada = input("Digite um IP, domínio, url ou hash: ").strip()
 
     if is_ip(entrada):
         tipo = "ip"

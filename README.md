@@ -1,5 +1,5 @@
 
-# 🛡️ IP & Hash Enrichment Tool
+# 🛡️ IP, Domain, Hash & URL Enrichment Tool
 
 Ferramenta em Python para enriquecimento de informações de **IPs**, **domínios**, **hashes** e **URLs** usando a API do [VirusTotal](https://www.virustotal.com/).
 
