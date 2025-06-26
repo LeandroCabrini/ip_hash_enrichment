@@ -15,6 +15,7 @@ def mostrar_resultado(dados):
     except Exception as e:
         print("Erro ao interpretar resultado:", e)
 
+# main function
 def main():
     entrada = input("Digite um IP, domínio, url ou hash: ").strip()
 
